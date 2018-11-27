@@ -1,0 +1,33 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+body,input,textarea,select,button{font-family:'Nanum Gothic'}
+table{border-bottom:#808080}
+#mask{display:none;position:absolute;z-index:99;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.3)}
+#fullcalendar{width:900px;margin-left:30px;margin-top:12px;font-size:1.2em}
+.fc-content{height:15px}
+.calendar-popup{display:none;position:absolute;z-index:100;width:360px;height:auto;margin-left:300px;margin-top:-600px;padding-bottom:12px;border:1px solid rgba(0,0,0,0.1);border-radius:1em;box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.26);background-color:rgba(245,245,245,1)}
+.popup-title{position:relative;top:6px;margin:8px 8px 20px 15px;font-size:16px;color:#00b3ca}
+.x-btn{display:inline-block;position:absolute;right:10px;top:12px;width:18px;height:18px;background:url(../img/btn_x_popup.png)no-repeat 0 0}
+.clock{display:inline-block;width:28px;height:28px;margin:0px 0px -10px 5px;background:url(../img/clock.png)no-repeat 0 0}
+.menu-row{width:100%;margin:10px 0px 10px 7px}
+.text-input{height:28px;width:307px;margin:4px 3px 0px 5px;padding:3px 12px;border:none;border-bottom:1px solid rgba(204,204,204,0.73);background:transparent;color:#666666;font-size:0.8em}
+.text-input:hover{border-bottom:1px solid#00b3ca;cursor:pointer}
+#add-calendar-title{height:120px;padding-top:12px;border:1px solid rgba(204,204,204,0.73);border-radius:5px}
+#add-calendar-title:hover{border:1px solid#00b3ca;cursor:pointer}
+.calendar-window>div{float:left}
+.calendar-window>div>input{width:140px;margin:0px 5px;padding:0px 2px;text-align:center}
+.calendar-window:after{content:"";display:block; clear:both}
+.menu-text{padding:0px 8px;font-size:medium;text-shadow:none;color:#6d6d6d}
+.right-button{width:160px;height:40px;border-radius:0.5em;border:none;font-size:1em;background:#ffffff;color:#00b3ca}
+.right-button:hover{background:#00b3ca;cursor:pointer;color:#ffffff}
+.left-button{width:160px;height:40px;margin:0px 12px;border:none;border-radius:0.5em;font-size:1em;background:#cecece;color:#ffffff}
+.left-button:hover{background:#ffffff;color:#6d6d6d;cursor:pointer}
+select{width:93%;height:30px;padding:3px 12px;margin:5px 3px 2px 6px;border:1px solid;border-radius:3px;font-size:small;background:transparent}
+.delete{background-color:#ffffff;color:rgb(255,82,82)}
+.delete.left-button:hover{background-color:rgb(255,82,82);cursor:pointer;color:white}
+.fc-sat{color:#3383ff}
+.fc-sun{color:#ff4040}
+.fc-event{padding:3px}
+div[class^="tag_"]{display:inline-block;width:12px;height:12px;margin:-2px 3px;background-image:url(../img/glyphicons-halflings-white.png);background-position:-121px -74px}
+div.tag_list{background-image:url(../img/glyphicons-halflings.png)}
+div.tag_D, div.tag_O{background-position:-145px -73px}
+ul {padding:0}
